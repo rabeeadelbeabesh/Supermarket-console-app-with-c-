@@ -1,0 +1,26 @@
+﻿Build started 11/14/2021 10:00:31 AM.
+     1>Project "E:\projects\file_project\file_project\file_project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt file_project.cpp stdafx.cpp
+         stdafx.cpp
+         file_project.cpp
+     1>e:\projects\file_project\file_project\file_project.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>e:\projects\file_project\file_project\file_project.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\projects\file_project\file_project\file_project.cpp(456): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>e:\projects\file_project\file_project\file_project.cpp(676): warning C4102: 'fl5' : unreferenced label
+     1>e:\projects\file_project\file_project\file_project.cpp(675): warning C4101: 'fl3' : unreferenced local variable
+     1>e:\projects\file_project\file_project\file_project.cpp(675): warning C4101: 'fl4' : unreferenced local variable
+     1>e:\projects\file_project\file_project\file_project.cpp(675): warning C4101: 'fl2' : unreferenced local variable
+     1>e:\projects\file_project\file_project\file_project.cpp(675): warning C4101: 'fl1' : unreferenced local variable
+     1>e:\projects\file_project\file_project\file_project.cpp(675): warning C4101: 'fl5' : unreferenced local variable
+     1>e:\projects\file_project\file_project\file_project.cpp(675): warning C4101: 'fl' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projects\file_project\Debug\file_project.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\projects\file_project\Debug\file_project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projects\file_project\Debug\file_project.lib" /MACHINE:X86 Debug\file_project.obj
+         Debug\stdafx.obj
+         file_project.vcxproj -> E:\projects\file_project\Debug\file_project.exe
+     1>Done Building Project "E:\projects\file_project\file_project\file_project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.48
